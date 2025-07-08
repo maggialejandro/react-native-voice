@@ -8,16 +8,19 @@ node_modules
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+android/.gradle
+
 # Package Files #
 *.jar
 
-build/
+# build/
 VoiceModule.iml
 yarn-error.log
+.yarn
 
-dist
+# dist
 
-plugin/build
+# plugin/build
 
 # user-specific files
 local.properties

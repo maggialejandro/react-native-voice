@@ -1,9 +1,8 @@
 {
   "name": "@react-native-voice/voice",
   "description": "React Native Native Voice library for iOS and Android",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "author": "Sam Wenke <samwenke@gmail.com>",
-  "private": false,
   "homepage": "https://github.com/react-native-voice/voice",
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
@@ -64,6 +63,7 @@
     "lint:plugin": "eslint plugin/src/*"
   },
   "dependencies": {
+    "@react-native-voice/voice": "^3.2.4",
     "invariant": "^2.2.4"
   },
   "codegenConfig": {
@@ -77,5 +77,6 @@
     "android": {
       "javaPackageName": "com.wenkesj.voice"
     }
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }
